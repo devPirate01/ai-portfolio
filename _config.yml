@@ -1,8 +1,8 @@
 title: "Mohammed Mahdi Jahangiri"
 name: "Mohammed Mahdi Jahangiri"
-description: "Games Programmer: Gameplay & AI Systems. 2+ years of C#/C++ across Unity and Unreal Engine 5. Shipped a commercial title and published research on AI companions."
+description: "AI Engineer / Machine Learning Engineer with published research on LLM-driven dialogue systems. 2+ years of production engineering in Agile teams."
 url: "https://devpirate01.github.io"
-baseurl: "/portfolio"
+baseurl: "/ai-portfolio"
 
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 
@@ -26,7 +26,7 @@ defaults:
 author:
   name: "Mohammed Mahdi Jahangiri"
   avatar: ""
-  bio: ""
+  bio: "Python | PyTorch | NLP | C++"
   location: "Cardiff, UK"
   links:
     - label: "GitHub"
