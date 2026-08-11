@@ -1,0 +1,10 @@
+# This is the main navigation menu
+main:
+  - title: "Projects"
+    url: "#projects"
+  - title: "About"
+    url: "#about"
+  - title: "CV"
+    url: "/cv/"
+  - title: "Contact"
+    url: "#contact"

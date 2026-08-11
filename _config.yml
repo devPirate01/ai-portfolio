@@ -1,0 +1,55 @@
+title: "Mohammed Mahdi Jahangiri"
+name: "Mohammed Mahdi Jahangiri"
+description: "Games Programmer: Gameplay & AI Systems. 2+ years of C#/C++ across Unity and Unreal Engine 5. Shipped a commercial title and published research on AI companions."
+url: "https://devpirate01.github.io"
+baseurl: "/portfolio"
+
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+
+plugins:
+  - jekyll-include-cache
+
+minimal_mistakes_skin: "dark"
+breadcrumbs: false
+search: false
+locale: "en-GB"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      classes: wide
+
+author:
+  name: "Mohammed Mahdi Jahangiri"
+  avatar: ""
+  bio: ""
+  location: "Cardiff, UK"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/devPirate01"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/m-mahdi-jahangiri/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:mapjiv@live.com"
+
+social:
+  - name: "GitHub"
+    url: "https://github.com/devPirate01"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/m-mahdi-jahangiri/"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/devPirate01"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/m-mahdi-jahangiri/"
