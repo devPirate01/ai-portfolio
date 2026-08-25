@@ -12,7 +12,7 @@ header:
       url: "#projects"
     - label: "Contact"
       url: "#contact"
-excerpt: "AI Engineer / Machine Learning Engineer. Specialising in Python, PyTorch, Hugging Face, NLP pipelines, LLM fine-tuning, RAG, and AI Safety."
+excerpt: "AI Engineer / Machine Learning Engineer. Specialising in Python, PyTorch, Hugging Face, NLP pipelines, LLM fine-tuning, and AI Safety."
 ---
 
 ## Featured Work {#projects}
@@ -33,31 +33,38 @@ Projects demonstrating AI engineering, machine learning pipelines, LLM integrati
         </div>
         <div class="slide">
 <pre class="diagram">
-[Creation Kit Engine: CompanionLLMV01.esp]
+[Creation Kit Mod: CompanionLLMV01.esp]
         ↓
-[Papyrus Hook: In-Game Event Trigger]
-        ↓ (Writes request.json via JContainers)
-[Python LLM Bridge & Orchestrator]
-    ├── [data_director.py]         → Session Memory & RAG Retrieval
-    ├── [llm_payload_builder.py]   → Profile & State Prompt Injection
-    ├── [KoboldCpp / OpenWebUI]    → Local LLM Inference Execution
-    └── [llm_reply_processor.py]   → JSON Sanitisation & Policy Check
-        ↓ (Writes response.json via JContainers)
-[Game Quest Engine: MMJ_Script]
+[Papyrus In-Game Hook: MMJ_TavernWitnessChatLauncher]
+        ↓ (Writes request.json via JContainers / PapyrusUtil)
+        ↓
+[Python Orchestrator: bridge.py]
+    ├── [data_director.py]         → IO, Session Memory, & Logging 
+    ├── [llm_payload_builder.py]   → Profile & Quest State Prompt Injection
+    ├── [Local Inference Engine]   → Gemma-4-E2B (Fine-Tuned SLM Execution)
+    └── [llm_reply_processor.py]   → JSON Sanitisation & Quest Policy Validation
+        ↓
+        ↓ (Writes response.json via JContainers / PapyrusUtil)
+[Skyrim Quest Engine: MMJ_PoisonedMeadQuestScript]
 </pre>
         </div>
         <div class="slide">
 {% highlight python %}
-# Sent with prompt payload to define output contract for local LLM
-def build_output_contract() -> dict:
+#This is sent with the main prompt to give a template for the llm's reply
+def build_output_contract() -> Dict[str, Any]:
+    """
+    Defines the strict JSON schema contract for the LLM output.
+    The response must strictly adhere to this structure to pass 
+    the Papyrus state-machine validation layer.
+    """
     return {
-        "schema_version": OUTPUT_SCHEMA_VERSION,
-        "dialogue": "Short player-facing NPC dialogue",
-        "player_intent": "One allowed intent",
-        "topic": "One allowed topic",
-        "policy_id": "One policy available to this NPC",
-        "response_type": "One allowed response type",
-        "clue_claims": ["Zero or more clue IDs"],
+        "schema_version": "1.0",
+        "dialogue": "Short, 1-3 sentence player-facing NPC dialogue.",
+        "player_intent": "Selected from allowed intents (e.g., 'ask_for_information').",
+        "topic": "Selected from allowed topics (e.g., 'suspect', 'weapon').",
+        "policy_id": "One specific state-machine policy available to this NPC.",
+        "response_type": "Must strictly align with the chosen policy_id.",
+        "clue_revealed": ["Zero or more validated clue IDs (e.g., 'C1')"],
         "action_request": None,
     }
 {% endhighlight %}
@@ -67,13 +74,18 @@ def build_output_contract() -> dict:
   </div>
   <div class="project-card__content">
     <h3>MSc Thesis — Safe AI Companion Systems (Skyrim LLM Bridge)</h3>
-    <p class="project-card__meta"><strong>Python, RAG, Local LLMs, JSON APIs, Prompt Engineering, C++</strong></p>
-    <p>MSc thesis prototype establishing a safe, local LLM pipeline with retrieval-augmented generation (RAG).</p>
+    <p class="project-card__meta"><strong>Python, Fine-Tunning, Local LLMs, JSON APIs, Prompt Engineering, C++</strong></p>
+    <p>MSc thesis prototype establishing a safe, Fine-tunned local LLM pipeline.</p>
     <ul>
-      <li>Built a custom local AI companion pipeline using <strong>Python</strong>, <strong>RAG-style context retrieval</strong>, and structured <strong>JSON request/response</strong> interfaces.</li>
-      <li>Engineered a local LLM orchestration bridge with bounded context windows, safety constraints, and prompt-engineering guardrails.</li>
-      <li>Evaluated the AI agent against branching-dialogue baselines, measuring interaction quality, latency, safety, and reliability metrics.</li>
+      <li>Engineered a custom Skyrim AI mod using the <strong>Creation Kit</strong>, bridging deterministic <strong>Papyrus</strong> scripts with generative AI via a custom <strong>Python LLM orchestrator</strong>.</li>
+      <li>Designed a secure inference pipeline with strict bounded context, state-machine validation, and automated fallback logic to prevent hallucinated quest flags.</li>
+      <li>Executed rigorous automated benchmarking to evaluate the system against branching-dialogue baselines, measuring state routing accuracy, edge-inference latency, and strict JSON compliance.</li>
+      <li><strong>Fine-tuned a Gemma 4 (E2B)</strong> model via QLoRA (4-bit quantization) to perfectly couple immersive, lore-accurate Skyrim dialogue with precise, game-ready JSON action states (on AMD RX 6900).</li>
     </ul>
+    <div class="project-links">
+      <a href="https://github.com/devPirate01/SkyrimLLMBridge" class="btn btn--primary" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      <a href="#" class="btn btn--inverse" onclick="return false;">Nexus Mod (in progress)</a>
+    </div>
   </div>
 </div>
 
