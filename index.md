@@ -12,7 +12,7 @@ header:
       url: "#projects"
     - label: "Contact"
       url: "#contact"
-excerpt: "AI Engineer / Machine Learning Engineer. Specialising in Python, PyTorch, Hugging Face, NLP pipelines, LLM fine-tuning, and AI Safety."
+excerpt: "Forward Deployed Engineer / AI Engineer. Specialising in Python, PyTorch, Hugging Face, NLP pipelines, LLM fine-tuning, and AI Safety."
 ---
 
 ## Featured Work {#projects}
@@ -25,7 +25,7 @@ Projects demonstrating AI engineering, machine learning pipelines, LLM integrati
       <div class="viewer-nav">
         <button class="active" onclick="showMedia('viewer-skyrim', 0)">Media</button>
         <button onclick="showMedia('viewer-skyrim', 1)">Architecture</button>
-        <button onclick="showMedia('viewer-skyrim', 2)">Contract Code</button>
+        <button onclick="showMedia('viewer-skyrim', 2)">Code</button>
         <button onclick="showMedia('viewer-skyrim', 3)">Evaluation</button>
       </div>
       <div class="viewer-slides">
@@ -269,9 +269,9 @@ for (int i = 0; currentTotalPositions < amount && i < maxNumberOfSurroundingCirc
 
 ## About {#about}
 
-**AI Engineer / Machine Learning Engineer**
+**Forward Deployed Engineer / AI Engineer**
 
-AI Engineer with published research on LLM-driven dialogue systems (**ICHORA 2024**) and hands-on experience building **NLP pipelines**, fine-tuning models, and deploying AI via **REST APIs**. Founding fellow at **AI Safety Cardiff University**.
+Forward Deployed Engineer & AI Engineer with published research on LLM-driven dialogue systems (**ICHORA 2024**) and hands-on experience building **NLP pipelines**, fine-tuning models, and deploying AI via **REST APIs**. Founding fellow at **AI Safety Cardiff University**.
 
 <div class="project-links">
   <a href="{{ '/about/' | relative_url }}" class="btn btn--inverse">Read Full Profile</a>
@@ -286,7 +286,7 @@ AI Engineer with published research on LLM-driven dialogue systems (**ICHORA 202
 
 ## Contact {#contact}
 
-Available for AI Engineering, Machine Learning, and AI Safety roles.
+Available for Forward Deployed Engineer and AI Engineer roles.
 
 - **Email:** <a href="mailto:mapjiv@live.com">mapjiv@live.com</a>
 - **LinkedIn:** <a href="https://www.linkedin.com/in/m-mahdi-jahangiri/" target="_blank" rel="noopener noreferrer">linkedin.com/in/m-mahdi-jahangiri</a>

@@ -5,9 +5,9 @@ permalink: /about/
 classes: no-sidebar
 ---
 
-**AI Engineer / Machine Learning Engineer**
+**Forward Deployed Engineer / AI Engineer**
 
-AI Engineer with published research on LLM-driven dialogue systems (**ICHORA 2024**) and hands-on experience building **NLP pipelines**, fine-tuning models, and deploying AI via **REST APIs**. 2+ years of production software engineering in Agile teams with code review and cross-functional coordination. MSc dissertation focuses on **safe AI companions** using **RAG** and local LLM inference.
+Forward Deployed Engineer & AI Engineer with published research on LLM-driven dialogue systems (**ICHORA 2024**) and hands-on experience building **NLP pipelines**, fine-tuning models, and deploying AI via **REST APIs**. 2+ years of production software engineering in Agile teams with code review and cross-functional coordination. MSc dissertation focuses on **safe AI companions** using local LLM inference, fine-tuning, and deterministic guardrails.
 
 ## Professional Summary
 
@@ -36,7 +36,7 @@ A founding member and fellow of **AI Safety Cardiff University (AISCU)**, with d
 
 ### MSc Artificial Intelligence — Cardiff University
 *2025 – 2027*
-- **Dissertation:** Safe AI companions using RAG and local LLM inference.
+- **Dissertation:** Safe AI companions using local LLM inference, fine-tuning, and deterministic guardrails.
 - **AI Safety Founding Fellow (Spring 2026):** Completed AI Safety Cardiff University (AISCU) fellowship on catastrophic risks, reward hacking, model evaluations, and AI governance.
 - **Computer Vision:** Bounding-box localization via **RF-DETR** fine-tuning on **VOC2012** using **PyTorch**.
 - **Computational Linguistics:** NLP pipeline development using **pandas**, **scikit-learn**, speech-to-text, intent detection, and emotion analysis.

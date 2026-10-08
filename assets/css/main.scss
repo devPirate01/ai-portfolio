@@ -112,7 +112,8 @@ body {
 
 .viewer-nav {
   display: flex;
-  gap: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.35rem;
   margin-bottom: 0.75rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-bottom: 0.5rem;
@@ -122,13 +123,14 @@ body {
   background: transparent;
   border: 1px solid transparent;
   color: #94a3b8;
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding: 0.35rem 0.75rem;
+  letter-spacing: 0.04em;
+  padding: 0.3rem 0.55rem;
   border-radius: 4px;
   cursor: pointer;
+  white-space: nowrap;
   transition: all 0.2s;
 }
 
