@@ -1,0 +1,4 @@
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo.svg' | relative_url }}">
+{% if page.tab_title %}
+<script>document.title = {{ page.tab_title | jsonify }};</script>
+{% endif %}

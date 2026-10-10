@@ -20,6 +20,13 @@ body {
   display: none !important;
 }
 
+/* Header logo alongside site title */
+.site-logo img {
+  width: 32px;
+  height: 32px;
+  max-height: 2rem;
+}
+
 /* Hero overlay text */
 .page__hero--overlay .page__title {
   font-size: clamp(2.4rem, 4.8vw, 3.9rem);

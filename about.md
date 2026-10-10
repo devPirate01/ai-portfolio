@@ -7,20 +7,20 @@ classes: no-sidebar
 
 **Forward Deployed Engineer / AI Engineer**
 
-Forward Deployed Engineer & AI Engineer with published research on LLM-driven dialogue systems (**ICHORA 2024**) and hands-on experience building **NLP pipelines**, fine-tuning models, and deploying AI via **REST APIs**. 2+ years of production software engineering in Agile teams with code review and cross-functional coordination. MSc dissertation focuses on **safe AI companions** using local LLM inference, fine-tuning, and deterministic guardrails.
+Forward Deployed Engineer & AI Engineer bridging local **LLM/NLP pipelines** with complex **C++/C#** systems and cross-org client delivery. Published researcher on LLM-driven dialogue systems (**ICHORA 2024**) with 2+ years of production software engineering in Agile teams, leading code reviews and cross-functional coordination across multiple stakeholders.
 
 ## Professional Summary
 
-Expertise lies at the intersection of machine learning systems, natural language processing, and real-time AI integration. Proven track record in building local Python **FastAPI** microservices, optimizing system performance bottlenecks (**10–30 FPS** gain), and leading cross-functional engineering teams (**40% to 90%** sprint completion boost).
+Expertise lies at the intersection of applied AI/ML systems, legacy **C++/C#** integration, and client-facing R&D delivery. Proven track record in domain-adapting local models (**QLoRA** fine-tuning), building **Python FastAPI** and asynchronous IPC bridges, engineering custom mathematical spatial systems for external venue partners (**CULTVR Lab** & **Media Cymru**), and leading cross-functional engineering teams (**40% to 90%** sprint completion boost, **10–30 FPS** performance gains).
 
-A founding member and fellow of **AI Safety Cardiff University (AISCU)**, with deep interest in catastrophic AI risk, model evaluation, biosecurity, and privacy guardrails.
+A founding member and fellow of **AI Safety Cardiff University (AISCU)**, with deep interest in deterministic guardrails, catastrophic AI risk, model evaluation, biosecurity, and privacy controls.
 
 ## Technical Skills
 
-- **ML & AI:** PyTorch, Hugging Face Transformers, scikit-learn, pandas, numpy, NLP, LLM fine-tuning, RAG, Model Evaluation, Behavior Trees
+- **ML & AI:** PyTorch, Hugging Face Transformers, QLoRA Fine-Tuning, Deterministic Guardrails, scikit-learn, pandas, numpy, NLP, RAG, Model Evaluation, Behavior Trees
 - **Core Languages:** Python, C++, C#
-- **APIs & Data:** FastAPI, REST APIs, SQL, JSON, Wit.ai, Whisper
-- **Engineering:** Git, Code Review, Agile/Scrum, Profiling & Optimization, Cross-Functional Leadership
+- **APIs & Systems Integration:** FastAPI, REST APIs, Asynchronous IPC Bridges, SQL, JSON Schema Validation, Wit.ai, Whisper
+- **Engineering & Delivery:** Git, Code Review, Agile/Scrum, Profiling & Optimization, Cross-Org Stakeholder Delivery, Technical Team Leadership
 
 ## Experience & Leadership
 
@@ -32,11 +32,17 @@ A founding member and fellow of **AI Safety Cardiff University (AISCU)**, with d
 - Conducted **code reviews** and enforced clean **Git/Plastic** branch hygiene across a remote team.
 - Owned weekly build pipelines and mediated cross-functional concerns between **5 department leads**.
 
+### Cross-Org Systems Engineer (R&D) — Awkward Studios (CULTVR & Media Cymru)
+*Cardiff, UK*
+- Collaborated in a cross-org engineering team for venue partner **CULTVR Lab** and sponsor **Media Cymru**, bridging critical gaps in open-source 360° dome projection tooling where no off-the-shelf UI specification existed.
+- Solved 360° spherical UI distortion by developing an editor-safe **Unity C#** component that directly manipulated **TextMesh Pro** vertex buffers and orbital trajectories using custom trigonometry and **Quaternion** rotations.
+- Engineered a projection-boundary clipping system to eliminate text artifacting across half-sphere dome limits and built decoupled state-transition APIs using **C# delegates** and coroutines.
+
 ## Education & Fellowships
 
 ### MSc Artificial Intelligence — Cardiff University
 *2025 – 2027*
-- **Dissertation:** Safe AI companions using local LLM inference, fine-tuning, and deterministic guardrails.
+- **Dissertation (Skyrim LLM Bridge):** Architected an asynchronous Python/C++ IPC bridge and deterministic state-machine validator for local SLMs; fine-tuned **Gemma 2B** via 4-bit **QLoRA** to raise routing compliance from **19.0% → 53.4%** (*p < 0.001*) at **0.98s** median latency across 1,500 trials. Shipped across GitHub, Hugging Face, and Nexus Mods.
 - **AI Safety Founding Fellow (Spring 2026):** Completed AI Safety Cardiff University (AISCU) fellowship on catastrophic risks, reward hacking, model evaluations, and AI governance.
 - **Computer Vision:** Bounding-box localization via **RF-DETR** fine-tuning on **VOC2012** using **PyTorch**.
 - **Computational Linguistics:** NLP pipeline development using **pandas**, **scikit-learn**, speech-to-text, intent detection, and emotion analysis.

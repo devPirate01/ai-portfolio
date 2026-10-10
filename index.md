@@ -3,6 +3,7 @@ layout: splash
 author_profile: false
 classes: wide
 title: "Mohammed Mahdi Jahangiri"
+tab_title: "M.Mahdi Johan | FDE & AI"
 header:
   overlay_color: "#0b1f33"
   overlay_filter: "0.55"
@@ -12,18 +13,18 @@ header:
       url: "https://github.com/devPirate01"
     - label: "<i class='fab fa-linkedin'></i> LinkedIn"
       url: "https://www.linkedin.com/in/m-mahdi-jahangiri/"
-    - label: "Hugging Face"
+    - label: "<svg role='img' viewBox='0 0 24 24' fill='currentColor' style='width:1em;height:1em;vertical-align:-0.125em;display:inline-block;' xmlns='http://www.w3.org/2000/svg'><path d='M12.025 1.13c-5.77 0-10.449 4.647-10.449 10.378 0 1.112.178 2.181.503 3.185.064-.222.203-.444.416-.577a.96.96 0 0 1 .524-.15c.293 0 .584.124.84.284.278.173.48.408.71.694.226.282.458.611.684.951v-.014c.017-.324.106-.622.264-.874s.403-.487.762-.543c.3-.047.596.06.787.203s.31.313.4.467c.15.257.212.468.233.542.01.026.653 1.552 1.657 2.54.616.605 1.01 1.223 1.082 1.912.055.537-.096 1.059-.38 1.572.637.121 1.294.187 1.967.187.657 0 1.298-.063 1.921-.178-.287-.517-.44-1.041-.384-1.581.07-.69.465-1.307 1.081-1.913 1.004-.987 1.647-2.513 1.657-2.539.021-.074.083-.285.233-.542.09-.154.208-.323.4-.467a1.08 1.08 0 0 1 .787-.203c.359.056.604.29.762.543s.247.55.265.874v.015c.225-.34.457-.67.683-.952.23-.286.432-.52.71-.694.257-.16.547-.284.84-.285a.97.97 0 0 1 .524.151c.228.143.373.388.43.625l.006.04a10.3 10.3 0 0 0 .534-3.273c0-5.731-4.678-10.378-10.449-10.378M8.327 6.583a1.5 1.5 0 0 1 .713.174 1.487 1.487 0 0 1 .617 2.013c-.183.343-.762-.214-1.102-.094-.38.134-.532.914-.917.71a1.487 1.487 0 0 1 .69-2.803m7.486 0a1.487 1.487 0 0 1 .689 2.803c-.385.204-.536-.576-.916-.71-.34-.12-.92.437-1.103.094a1.487 1.487 0 0 1 .617-2.013 1.5 1.5 0 0 1 .713-.174m-10.68 1.55a.96.96 0 1 1 0 1.921.96.96 0 0 1 0-1.92m13.838 0a.96.96 0 1 1 0 1.92.96.96 0 0 1 0-1.92M8.489 11.458c.588.01 1.965 1.157 3.572 1.164 1.607-.007 2.984-1.155 3.572-1.164.196-.003.305.12.305.454 0 .886-.424 2.328-1.563 3.202-.22-.756-1.396-1.366-1.63-1.32q-.011.001-.02.006l-.044.026-.01.008-.03.024q-.018.017-.035.036l-.032.04a1 1 0 0 0-.058.09l-.014.025q-.049.088-.11.19a1 1 0 0 1-.083.116 1.2 1.2 0 0 1-.173.18q-.035.029-.075.058a1.3 1.3 0 0 1-.251-.243 1 1 0 0 1-.076-.107c-.124-.193-.177-.363-.337-.444-.034-.016-.104-.008-.2.022q-.094.03-.216.087-.06.028-.125.063l-.13.074q-.067.04-.136.086a3 3 0 0 0-.135.096 3 3 0 0 0-.26.219 2 2 0 0 0-.12.121 2 2 0 0 0-.106.128l-.002.002a2 2 0 0 0-.09.132l-.001.001a1.2 1.2 0 0 0-.105.212q-.013.036-.024.073c-1.139-.875-1.563-2.317-1.563-3.203 0-.334.109-.457.305-.454m.836 10.354c.824-1.19.766-2.082-.365-3.194-1.13-1.112-1.789-2.738-1.789-2.738s-.246-.945-.806-.858-.97 1.499.202 2.362c1.173.864-.233 1.45-.685.64-.45-.812-1.683-2.896-2.322-3.295s-1.089-.175-.938.647 2.822 2.813 2.562 3.244-1.176-.506-1.176-.506-2.866-2.567-3.49-1.898.473 1.23 2.037 2.16c1.564.932 1.686 1.178 1.464 1.53s-3.675-2.511-4-1.297c-.323 1.214 3.524 1.567 3.287 2.405-.238.839-2.71-1.587-3.216-.642-.506.946 3.49 2.056 3.522 2.064 1.29.33 4.568 1.028 5.713-.624m5.349 0c-.824-1.19-.766-2.082.365-3.194 1.13-1.112 1.789-2.738 1.789-2.738s.246-.945.806-.858.97 1.499-.202 2.362c-1.173.864.233 1.45.685.64.451-.812 1.683-2.896 2.322-3.295s1.089-.175.938.647-2.822 2.813-2.562 3.244 1.176-.506 1.176-.506 2.866-2.567 3.49-1.898-.473 1.23-2.037 2.16c-1.564.932-1.686 1.178-1.464 1.53s3.675-2.511 4-1.297c.323 1.214-3.524 1.567-3.287 2.405.238.839 2.71-1.587 3.216-.642.506.946-3.49 2.056-3.522 2.064-1.29.33-4.568 1.028-5.713-.624'/></svg> Hugging Face"
       url: "https://huggingface.co/devPirate01"
     - label: "View Projects"
       url: "#projects"
     - label: "CV"
       url: "/cv/"
-excerpt: "Forward Deployed Engineer / AI Engineer. Specialising in Python, PyTorch, Hugging Face, NLP pipelines, LLM fine-tuning, and AI Safety."
+excerpt: "Forward Deployed Engineer / AI Engineer. Specialising in Python, C++/C#, PyTorch, Hugging Face, LLM fine-tuning, legacy system integration, and cross-org engineering delivery."
 ---
 
 ## Featured Work {#projects}
 
-Projects demonstrating AI engineering, machine learning pipelines, LLM integration, and AI safety research.
+Projects demonstrating forward-deployed AI engineering, legacy C++/C# system integration, deterministic LLM guardrails, and cross-org client delivery.
 
 <div class="project-card">
   <div class="project-card__media">
@@ -97,13 +98,12 @@ Inference Performance (AMD RX 6900 XT @ 4-bit QLoRA):
   <div class="project-card__content">
     <h3>Bounded LLM Orchestrator & Legacy System Integration</h3>
     <p class="project-card__meta"><strong>Python • Legacy C++ Integration • Local SLMs (QLoRA) • Deterministic State Machines • Benchmarking</strong></p>
-    <p>MSc Thesis reference implementation deployed as the <strong>Skyrim LLM Bridge</strong>: an end-to-end local generative pipeline operating reliably inside an authoritative legacy C++ runtime.</p>
+    <p>MSc Thesis deployed as the <strong>Skyrim LLM Bridge</strong>: an end-to-end local generative pipeline operating reliably inside an authoritative legacy C++ runtime.</p>
     <ul>
-      <li><strong>Legacy Runtime Integration:</strong> Architected an asynchronous, decoupled file-polling IPC bridge connecting Skyrim's authoritative C++/Papyrus engine with local generative models, eliminating thread-blocking and frame freezes.</li>
-      <li><strong>Deterministic Guardrails & Zero-Hallucination Routing:</strong> Subordinated local SLM inference to a rigid JSON state machine with runtime schema validation, policy coupling, and epistemic clue gating to prevent game-state corruption.</li>
-      <li><strong>Edge Fine-Tuning & Quantization:</strong> Domain-adapted Google's <strong>Gemma 2B</strong> via 4-bit QLoRA on consumer hardware (AMD RX 6900 XT), increasing game-state routing compliance from <strong>19.0% → 53.4%</strong> (<em>p &lt; 0.001</em>).</li>
-      <li><strong>Rigorous Empirical Evaluation:</strong> Built an automated multi-seed test harness executing <strong>1,500 trials across 100 scenarios</strong>, benchmarking latency (<strong>0.98s median</strong>), token throughput (<strong>36.2 TPS</strong>), and peak VRAM budget (<strong>7.1 GB</strong>).</li>
-      <li><strong>Production Deployment Trinity:</strong> Shipped as a complete production ecosystem: open-source engine code on <strong>GitHub</strong>, fine-tuned weights on <strong>Hugging Face</strong>, and a public package on <strong>Nexus Mods</strong> (Mod ID: 194492).</li>
+      <li><strong>Legacy System Integration:</strong> Built an <strong>asynchronous IPC bridge</strong> connecting Skyrim's C++/Papyrus engine to local SLMs without thread-blocking.</li>
+      <li><strong>Deterministic Guardrails:</strong> Gated LLM inference behind a <strong>JSON state-machine validator</strong> and epistemic clue gating to eliminate hallucinations.</li>
+      <li><strong>Edge QLoRA Fine-Tuning:</strong> Adapted <strong>Gemma 2B</strong> via 4-bit QLoRA, raising state-machine routing compliance from <strong>19.0% → 53.4%</strong> (<em>p &lt; 0.001</em>).</li>
+      <li><strong>Empirical Benchmarking:</strong> Evaluated across <strong>1,500 automated trials</strong>, achieving <strong>0.98s median latency</strong> and 36.2 TPS within a <strong>7.1 GB VRAM</strong> budget.</li>
     </ul>
     <div class="project-links">
       <a href="https://github.com/devPirate01/SkyrimLLMBridge" class="btn btn--primary" target="_blank" rel="noopener noreferrer">GitHub Repo →</a>
@@ -172,50 +172,11 @@ public void RestartSequence()
   <div class="project-card__content">
     <h3>Cross-Org Systems Engineering — Awkward Studios (CULTVR & Media Cymru)</h3>
     <p class="project-card__meta"><strong>Unity C# • Applied Mathematics • TextMesh Pro Vertex Buffers • State-Machine APIs • GitHub PR Workflow</strong></p>
-    <p>Forward-deployed R&D engineering for venue partner <strong>CULTVR Lab</strong> and sponsor <strong>Media Cymru</strong>, building custom spatial UI and mathematical correction systems on top of an open-source 360° dome projection pipeline.</p>
+    <p>Forward-deployed R&D for venue partner <strong>CULTVR Lab</strong> and sponsor <strong>Media Cymru</strong>, delivering custom spatial UI and math correction for a 360° dome installation.</p>
     <ul>
-      <li><strong>Ambiguous Client R&D:</strong> Collaborated in a cross-org engineering team for venue partner <strong>CULTVR</strong> and sponsor <strong>Media Cymru</strong>, bridging critical gaps in open-source 360° dome projection tooling where no off-the-shelf UI specification existed.</li>
-      <li><strong>Applied Mathematical Engineering:</strong> Solved 360° spherical UI distortion by developing an editor-safe <strong>Unity C#</strong> component that directly manipulated <strong>TextMesh Pro</strong> vertex buffers and orbital trajectories using custom trigonometry and <strong>Quaternion</strong> rotations.</li>
-      <li><strong>Boundary & State Architecture:</strong> Engineered a projection-boundary clipping system to eliminate text artifacting across half-sphere dome limits and built decoupled state-transition APIs using <strong>C# delegates</strong> and coroutines.</li>
-    </ul>
-  </div>
-</div>
-
-<div class="project-card">
-  <div class="project-card__media">
-    <div class="project-media-viewer" id="viewer-aiscu">
-      <div class="viewer-nav">
-        <button class="active" onclick="showMedia('viewer-aiscu', 0)">Media</button>
-        <button onclick="showMedia('viewer-aiscu', 1)">Overview</button>
-      </div>
-      <div class="viewer-slides">
-        <div class="slide active">
-          <img src="{{ '/assets/images/AISafty-hero.jpg' | relative_url }}" alt="AI Safety Cardiff University" loading="lazy" />
-        </div>
-        <div class="slide">
-<pre class="diagram">
-[AI Safety Cardiff University (AISCU)]
-        ↓ (Spring 2026 Fundamentals Fellowship)
-[Research & Evaluation Domains]
-    ├── Catastrophic AI Risks & Governance
-    ├── Reward Hacking & Specification Gaming
-    ├── Deception, Scheming & Model Evals
-    └── Cyber Risks & AI / Biosecurity
-        ↓
-[Focus: AI Safety, Biosecurity & Human Autonomy]
-</pre>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="project-card__content">
-    <h3>AI Safety Cardiff University (AISCU) — Founding Fellow</h3>
-    <p class="project-card__meta"><strong>AI Safety, Model Evaluation, AI Governance, Biosecurity, Risk Alignment</strong></p>
-    <p>Founding member and fellow of the Spring 2026 Fundamentals Fellowship at AI Safety Cardiff University.</p>
-    <ul>
-      <li>Completed intensive fellowship analyzing <strong>catastrophic AI risks</strong>, <strong>reward hacking/specification gaming</strong>, <strong>deception & scheming</strong>, and <strong>model evaluations</strong>.</li>
-      <li>Studied <strong>AI governance</strong> frameworks, <strong>cyber risks</strong>, and safety controls at the biosecurity interface of frontier AI models.</li>
-      <li>Developed focused research interest in the overlap between AI systems, <strong>biosecurity</strong>, behavioral data, privacy, and human autonomy.</li>
+      <li><strong>Ambiguous Client R&D:</strong> Collaborated across organisations to bridge gaps in open-source 360° dome tooling where <strong>no off-the-shelf UI spec</strong> existed.</li>
+      <li><strong>Applied Math Engineering:</strong> Solved 360° spherical distortion in <strong>C#</strong> by manipulating vertex buffers with custom <strong>trigonometry and Quaternions</strong>.</li>
+      <li><strong>Boundary & State APIs:</strong> Engineered a <strong>half-sphere clipping system</strong> to eliminate visual artifacts and built decoupled state APIs using <strong>C# delegates</strong>.</li>
     </ul>
   </div>
 </div>
@@ -258,17 +219,56 @@ for (int i = 0; currentTotalPositions < amount && i < maxNumberOfSurroundingCirc
   </div>
   <div class="project-card__content">
     <h3>Engineering Team Lead — Landell Games (Apoceus)</h3>
-    <p class="project-card__meta"><strong>Agile/Scrum, Technical Leadership, Performance Profiling, Git/Plastic SCM, Steam</strong></p>
-    <p>Production engineering and team coordination on a live-service software project shipping to Steam.</p>
+    <p class="project-card__meta"><strong>Agile/Scrum • Technical Leadership • Performance Profiling • Git/Plastic SCM • Steam</strong></p>
+    <p>Production engineering leadership and cross-department delivery on a live-service project shipping to Steam.</p>
     <ul>
-      <li>Coordinated a <strong>3–6 person engineering team</strong>, translating production priorities into sprint tasks and raising sprint success from <strong>40% to 90%</strong>.</li>
-      <li>Profiled and optimized performance bottlenecks, improving frame time by <strong>10–30 FPS</strong> on target hardware.</li>
-      <li>Conducted rigorous <strong>code reviews</strong> and enforced clean branch hygiene across a remote engineering team.</li>
-      <li>Owned weekly build pipelines and mediated cross-functional technical concerns between <strong>5 department leads</strong>.</li>
+      <li>Coordinated a <strong>3–6 person engineering team</strong>, translating production priorities into sprint tasks and raising sprint completion from <strong>40% → 90%</strong>.</li>
+      <li>Profiled CPU and rendering bottlenecks, improving runtime performance by <strong>10–30 FPS</strong> on target hardware.</li>
+      <li>Led rigorous <strong>code reviews</strong> and enforced clean branch hygiene across a distributed remote team.</li>
+      <li>Owned weekly release pipelines and aligned technical architecture across <strong>5 department leads</strong>.</li>
     </ul>
     <div class="project-links">
       <a href="https://store.steampowered.com/app/1841690/Apoceus_Winter_Wars/" class="btn btn--primary" target="_blank" rel="noopener noreferrer">View on Steam →</a>
     </div>
+  </div>
+</div>
+
+<div class="project-card">
+  <div class="project-card__media">
+    <div class="project-media-viewer" id="viewer-aiscu">
+      <div class="viewer-nav">
+        <button class="active" onclick="showMedia('viewer-aiscu', 0)">Media</button>
+        <button onclick="showMedia('viewer-aiscu', 1)">Overview</button>
+      </div>
+      <div class="viewer-slides">
+        <div class="slide active">
+          <img src="{{ '/assets/images/AISafty-hero.jpg' | relative_url }}" alt="AI Safety Cardiff University" loading="lazy" />
+        </div>
+        <div class="slide">
+<pre class="diagram">
+[AI Safety Cardiff University (AISCU)]
+        ↓ (Spring 2026 Fundamentals Fellowship)
+[Research & Evaluation Domains]
+    ├── Catastrophic AI Risks & Governance
+    ├── Reward Hacking & Specification Gaming
+    ├── Deception, Scheming & Model Evals
+    └── Cyber Risks & AI / Biosecurity
+        ↓
+[Focus: AI Safety, Biosecurity & Human Autonomy]
+</pre>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="project-card__content">
+    <h3>AI Safety Cardiff University (AISCU) — Founding Fellow</h3>
+    <p class="project-card__meta"><strong>AI Safety • Model Evaluation • AI Governance • Biosecurity • Risk Alignment</strong></p>
+    <p>Founding member and fellow of the Spring 2026 Fundamentals Fellowship at AI Safety Cardiff University.</p>
+    <ul>
+      <li>Evaluated <strong>specification gaming</strong>, deception/scheming, and <strong>model evaluation frameworks</strong> for frontier AI systems.</li>
+      <li>Analysed <strong>AI governance</strong>, cyber risks, and safety controls at the biosecurity interface.</li>
+      <li>Focused research on autonomous AI alignment, <strong>behavioral data privacy</strong>, and human autonomy.</li>
+    </ul>
   </div>
 </div>
 
@@ -280,7 +280,7 @@ for (int i = 0; currentTotalPositions < amount && i < maxNumberOfSurroundingCirc
       </div>
       <div class="viewer-slides">
         <div class="slide active">
-<pre class="diagram">
+          <pre class="diagram">
 [Player Microphone Input]
         ↓
 [Unreal C++ Mic Capture]
@@ -298,13 +298,13 @@ for (int i = 0; currentTotalPositions < amount && i < maxNumberOfSurroundingCirc
   </div>
   <div class="project-card__content">
     <h3>AI-Driven NPC Interaction Prototype</h3>
-    <p class="project-card__meta"><strong>Python, FastAPI, PyTorch, Hugging Face, C++, Unreal Engine 5, Whisper, Wit.ai</strong></p>
-    <p>A real-time, voice-driven AI pipeline bridging microphone audio to autonomous C++ behavior logic.</p>
+    <p class="project-card__meta"><strong>Python • FastAPI • PyTorch • Hugging Face • C++ • Unreal Engine 5 • Whisper • Wit.ai</strong></p>
+    <p>A real-time, voice-driven AI microservice bridging live microphone audio to autonomous C++ behavior logic.</p>
     <ul>
-      <li>Built a local <strong>Python FastAPI</strong> server bridging real-time microphone input to a <strong>C++</strong> application via a custom <strong>REST API</strong>.</li>
-      <li>Integrated <strong>Whisper</strong> (speech-to-text), <strong>Wit.ai</strong> (intent detection), and local <strong>Hugging Face</strong> transformers for real-time voice and emotion detection.</li>
-      <li>Trained the voice-emotion model and configured custom <strong>Wit.ai</strong> intents using voice dataset recordings.</li>
-      <li>Wired microphone audio capture in <strong>C++</strong>, returning intent and emotion signals to drive real-time <strong>behavior-tree</strong> decision logic.</li>
+      <li>Architected a local <strong>Python FastAPI</strong> server bridging real-time audio input to a <strong>C++ runtime</strong> via REST API.</li>
+      <li>Orchestrated <strong>Whisper</strong> (STT), <strong>Wit.ai</strong> (intent), and <strong>Hugging Face</strong> transformers for real-time emotion detection.</li>
+      <li>Curated custom voice datasets to train the <strong>emotion classifier</strong> and configure domain-specific intent schemas.</li>
+      <li>Wired low-latency C++ audio capture to drive autonomous <strong>Behavior Tree</strong> decision logic in real time.</li>
     </ul>
   </div>
 </div>
@@ -328,12 +328,12 @@ for (int i = 0; currentTotalPositions < amount && i < maxNumberOfSurroundingCirc
   </div>
   <div class="project-card__content">
     <h3>Publication — ICHORA 2024</h3>
-    <p class="project-card__meta"><strong>LLMs, NLP, Pursuit Learning Automata, Machine Learning Research</strong></p>
+    <p class="project-card__meta"><strong>LLMs • NLP • Pursuit Learning Automata • Edge Compute Optimization</strong></p>
     <p><strong>Balancing Game Satisfaction and Resource Efficiency: LLM and Pursuit Learning Automata for NPC Dialogues</strong></p>
     <ul>
-      <li>Published and presented peer-reviewed research proposing a resource-efficient local <strong>LLM pipeline</strong> for dynamic dialogue.</li>
-      <li>Applied <strong>pursuit learning automata</strong> to balance player interaction quality against local computational overhead.</li>
-      <li>Demonstrated real-time feasibility of hybrid machine learning models in resource-constrained environments.</li>
+      <li>Published peer-reviewed research proposing a <strong>resource-efficient local LLM pipeline</strong> for interactive systems.</li>
+      <li>Applied <strong>Pursuit Learning Automata</strong> to dynamically balance output quality against local compute constraints.</li>
+      <li>Demonstrated real-time feasibility of hybrid ML orchestration in <strong>hardware-constrained environments</strong>.</li>
     </ul>
     <div class="project-links">
       <a href="https://scholar.google.com/scholar?q=Balancing+Game+Satisfaction+and+Resource+Efficiency+LLM+Pursuit+Learning+Automata+NPC+Dialogues" class="btn btn--primary" target="_blank" rel="noopener noreferrer">View on Google Scholar →</a>
@@ -345,7 +345,7 @@ for (int i = 0; currentTotalPositions < amount && i < maxNumberOfSurroundingCirc
 
 **Forward Deployed Engineer / AI Engineer**
 
-Forward Deployed Engineer & AI Engineer with published research on LLM-driven dialogue systems (**ICHORA 2024**) and hands-on experience building **NLP pipelines**, fine-tuning models, and deploying AI via **REST APIs**. Founding fellow at **AI Safety Cardiff University**.
+Forward Deployed Engineer & AI Engineer bridging local **LLM/NLP pipelines** with complex **C++/C# systems** and cross-org client R&D. Published researcher (**ICHORA 2024**), Engineering Team Lead (**40% → 90% sprint delivery**), and Founding Fellow at **AI Safety Cardiff University**.
 
 <div class="project-links">
   <a href="{{ '/about/' | relative_url }}" class="btn btn--inverse">Read Full Profile</a>
