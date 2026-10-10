@@ -35,6 +35,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/m-mahdi-jahangiri/"
+    - label: "Hugging Face"
+      icon: "fas fa-fw fa-cube"
+      url: "https://huggingface.co/devPirate01"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:mapjiv@live.com"
@@ -44,6 +47,8 @@ social:
     url: "https://github.com/devPirate01"
   - name: "LinkedIn"
     url: "https://www.linkedin.com/in/m-mahdi-jahangiri/"
+  - name: "Hugging Face"
+    url: "https://huggingface.co/devPirate01"
 
 footer:
   links:
@@ -53,3 +58,6 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/m-mahdi-jahangiri/"
+    - label: "Hugging Face"
+      icon: "fas fa-fw fa-cube"
+      url: "https://huggingface.co/devPirate01"

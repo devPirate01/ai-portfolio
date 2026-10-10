@@ -8,10 +8,16 @@ header:
   overlay_filter: "0.55"
   overlay_image: /assets/images/hero.jpg
   actions:
-    - label: "View projects"
+    - label: "<i class='fab fa-github'></i> GitHub"
+      url: "https://github.com/devPirate01"
+    - label: "<i class='fab fa-linkedin'></i> LinkedIn"
+      url: "https://www.linkedin.com/in/m-mahdi-jahangiri/"
+    - label: "Hugging Face"
+      url: "https://huggingface.co/devPirate01"
+    - label: "View Projects"
       url: "#projects"
-    - label: "Contact"
-      url: "#contact"
+    - label: "CV"
+      url: "/cv/"
 excerpt: "Forward Deployed Engineer / AI Engineer. Specialising in Python, PyTorch, Hugging Face, NLP pipelines, LLM fine-tuning, and AI Safety."
 ---
 
@@ -288,9 +294,10 @@ Forward Deployed Engineer & AI Engineer with published research on LLM-driven di
 
 Available for Forward Deployed Engineer and AI Engineer roles.
 
-- **Email:** <a href="mailto:mapjiv@live.com">mapjiv@live.com</a>
-- **LinkedIn:** <a href="https://www.linkedin.com/in/m-mahdi-jahangiri/" target="_blank" rel="noopener noreferrer">linkedin.com/in/m-mahdi-jahangiri</a>
 - **GitHub:** <a href="https://github.com/devPirate01" target="_blank" rel="noopener noreferrer">github.com/devPirate01</a>
+- **LinkedIn:** <a href="https://www.linkedin.com/in/m-mahdi-jahangiri/" target="_blank" rel="noopener noreferrer">linkedin.com/in/m-mahdi-jahangiri</a>
+- **Hugging Face:** <a href="https://huggingface.co/devPirate01" target="_blank" rel="noopener noreferrer">huggingface.co/devPirate01</a>
+- **Email:** <a href="mailto:mapjiv@live.com">mapjiv@live.com</a>
 
 <!-- Theme-Compliant Media & Code Lightbox Modal -->
 <div id="media-modal" class="media-modal-backdrop" onclick="closeMediaModal(event)">
@@ -371,6 +378,12 @@ document.addEventListener('DOMContentLoaded', () => {
       if (window.getSelection && window.getSelection().toString().length > 0) return;
       openMediaModal(slide);
     });
+  });
+
+  // Open external header & hero links in a new tab
+  document.querySelectorAll('.page__hero--overlay a[href^="https://"], .masthead a[href^="https://"]').forEach(link => {
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener noreferrer');
   });
 });
 

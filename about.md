@@ -52,6 +52,7 @@ A founding member and fellow of **AI Safety Cardiff University (AISCU)**, with d
 
 ## Contact Information
 
-- **Email:** [mapjiv@live.com](mailto:mapjiv@live.com)
-- **LinkedIn:** [linkedin.com/in/m-mahdi-jahangiri](https://www.linkedin.com/in/m-mahdi-jahangiri/)
 - **GitHub:** [github.com/devPirate01](https://github.com/devPirate01)
+- **LinkedIn:** [linkedin.com/in/m-mahdi-jahangiri](https://www.linkedin.com/in/m-mahdi-jahangiri/)
+- **Hugging Face:** [huggingface.co/devPirate01](https://huggingface.co/devPirate01)
+- **Email:** [mapjiv@live.com](mailto:mapjiv@live.com)
