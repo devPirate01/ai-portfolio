@@ -171,12 +171,12 @@ public void RestartSequence()
   </div>
   <div class="project-card__content">
     <h3>Cross-Org Systems Engineering — Awkward Studios (CULTVR & Media Cymru)</h3>
-    <p class="project-card__meta"><strong>C# • Applied Mathematics • Bespoke Client Tooling • State-Machine APIs • GitHub PR Workflow</strong></p>
-    <p>Forward-deployed R&D engineering for venue partner <strong>CULTVR Lab</strong> and sponsor <strong>Media Cymru</strong>, delivering custom projection-correction systems for a physical 360° dome installation.</p>
+    <p class="project-card__meta"><strong>Unity C# • Applied Mathematics • TextMesh Pro Vertex Buffers • State-Machine APIs • GitHub PR Workflow</strong></p>
+    <p>Forward-deployed R&D engineering for venue partner <strong>CULTVR Lab</strong> and sponsor <strong>Media Cymru</strong>, building custom spatial UI and mathematical correction systems on top of an open-source 360° dome projection pipeline.</p>
     <ul>
-      <li><strong>Zero-Spec Problem Solving:</strong> Walked into a messy, ambiguous hardware-software problem with <strong>no existing spec or tooling</strong>, engineering a custom mathematical correction system for venue partner <strong>CULTVR</strong> and sponsor <strong>Media Cymru</strong>.</li>
-      <li><strong>Applied Mathematical Engineering:</strong> Solved 360° spherical projection distortion by building an editor-safe <strong>C#</strong> component that directly manipulated vertex buffers using custom trigonometry and <strong>Quaternion</strong> rotations.</li>
-      <li><strong>Boundary & State Architecture:</strong> Engineered a projection-boundary clipping system to eliminate visual artifacting across half-sphere limits and built decoupled state-transition APIs using <strong>C# delegates</strong> and coroutines.</li>
+      <li><strong>Ambiguous Client R&D:</strong> Collaborated in a cross-org engineering team for venue partner <strong>CULTVR</strong> and sponsor <strong>Media Cymru</strong>, bridging critical gaps in open-source 360° dome projection tooling where no off-the-shelf UI specification existed.</li>
+      <li><strong>Applied Mathematical Engineering:</strong> Solved 360° spherical UI distortion by developing an editor-safe <strong>Unity C#</strong> component that directly manipulated <strong>TextMesh Pro</strong> vertex buffers and orbital trajectories using custom trigonometry and <strong>Quaternion</strong> rotations.</li>
+      <li><strong>Boundary & State Architecture:</strong> Engineered a projection-boundary clipping system to eliminate text artifacting across half-sphere dome limits and built decoupled state-transition APIs using <strong>C# delegates</strong> and coroutines.</li>
     </ul>
   </div>
 </div>
