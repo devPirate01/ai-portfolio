@@ -115,6 +115,74 @@ Inference Performance (AMD RX 6900 XT @ 4-bit QLoRA):
 
 <div class="project-card">
   <div class="project-card__media">
+    <div class="project-media-viewer" id="viewer-dome">
+      <div class="viewer-nav">
+        <button class="active" onclick="showMedia('viewer-dome', 0)">Media</button>
+        <button onclick="showMedia('viewer-dome', 1)">Code</button>
+      </div>
+      <div class="viewer-slides">
+        <div class="slide active">
+          <img src="{{ '/assets/images/dome-hero.jpg' | relative_url }}" alt="360° dome projection interface for CULTVR Lab" loading="lazy" />
+        </div>
+        <div class="slide">
+{% highlight csharp %}
+// Called during the LaunchSequence coroutine to animate letters along an arc
+private void ApplyLetterTransforms(float t)
+{
+    foreach (OrbitLetter orbitLetter in letters)
+    {
+        Transform letterTransform = orbitLetter.letter.transform;
+
+        // Interpolate the linear base position from start to end
+        Vector3 basePosition = Vector3.Lerp(
+            orbitLetter.startPoint.position,
+            orbitLetter.endPoint.position,
+            t
+        );
+
+        // Calculate a vertical arc offset using a sine wave to simulate projectile-like motion
+        float arcOffset = Mathf.Sin(t * Mathf.PI) * arcHeight;
+
+        letterTransform.position = basePosition + (Vector3.up * arcOffset);
+
+        // Apply spherical interpolation for smooth rotation alignment
+        letterTransform.rotation = Quaternion.Slerp(
+            orbitLetter.startPoint.rotation,
+            orbitLetter.endPoint.rotation,
+            t
+        );
+    }
+}
+
+[ContextMenu("Restart Orbit Launch")]
+public void RestartSequence()
+{
+    // Validates references and logs errors before attempting execution
+    if (!ValidateLetters()) 
+        return;
+
+    StopAllCoroutines();
+    StartCoroutine(LaunchSequence());
+}
+{% endhighlight %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="project-card__content">
+    <h3>Cross-Org Systems Engineering — Awkward Studios (CULTVR & Media Cymru)</h3>
+    <p class="project-card__meta"><strong>C# • Applied Mathematics • Bespoke Client Tooling • State-Machine APIs • GitHub PR Workflow</strong></p>
+    <p>Forward-deployed R&D engineering for venue partner <strong>CULTVR Lab</strong> and sponsor <strong>Media Cymru</strong>, delivering custom projection-correction systems for a physical 360° dome installation.</p>
+    <ul>
+      <li><strong>Zero-Spec Problem Solving:</strong> Walked into a messy, ambiguous hardware-software problem with <strong>no existing spec or tooling</strong>, engineering a custom mathematical correction system for venue partner <strong>CULTVR</strong> and sponsor <strong>Media Cymru</strong>.</li>
+      <li><strong>Applied Mathematical Engineering:</strong> Solved 360° spherical projection distortion by building an editor-safe <strong>C#</strong> component that directly manipulated vertex buffers using custom trigonometry and <strong>Quaternion</strong> rotations.</li>
+      <li><strong>Boundary & State Architecture:</strong> Engineered a projection-boundary clipping system to eliminate visual artifacting across half-sphere limits and built decoupled state-transition APIs using <strong>C# delegates</strong> and coroutines.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="project-card">
+  <div class="project-card__media">
     <div class="project-media-viewer" id="viewer-aiscu">
       <div class="viewer-nav">
         <button class="active" onclick="showMedia('viewer-aiscu', 0)">Media</button>
@@ -297,6 +365,7 @@ Available for Forward Deployed Engineer and AI Engineer roles.
 - **GitHub:** <a href="https://github.com/devPirate01" target="_blank" rel="noopener noreferrer">github.com/devPirate01</a>
 - **LinkedIn:** <a href="https://www.linkedin.com/in/m-mahdi-jahangiri/" target="_blank" rel="noopener noreferrer">linkedin.com/in/m-mahdi-jahangiri</a>
 - **Hugging Face:** <a href="https://huggingface.co/devPirate01" target="_blank" rel="noopener noreferrer">huggingface.co/devPirate01</a>
+- **Nexus Mods:** <a href="https://www.nexusmods.com/skyrimspecialedition/mods/194492" target="_blank" rel="noopener noreferrer">nexusmods.com (Mod #194492)</a>
 - **Email:** <a href="mailto:mapjiv@live.com">mapjiv@live.com</a>
 
 <!-- Theme-Compliant Media & Code Lightbox Modal -->

@@ -61,3 +61,6 @@ footer:
     - label: "Hugging Face"
       icon: "fas fa-fw fa-cube"
       url: "https://huggingface.co/devPirate01"
+    - label: "Nexus Mods"
+      icon: "fas fa-fw fa-puzzle-piece"
+      url: "https://www.nexusmods.com/skyrimspecialedition/mods/194492"
