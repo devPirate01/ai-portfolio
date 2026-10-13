@@ -42,7 +42,7 @@ A founding member and fellow of **AI Safety Cardiff University (AISCU)**, with d
 
 ### MSc Artificial Intelligence — Cardiff University
 *2025 – 2027*
-- **Dissertation (Skyrim LLM Bridge):** Architected an asynchronous Python/C++ IPC bridge and deterministic state-machine validator for local SLMs; fine-tuned **Gemma 2B** via 4-bit **QLoRA** to raise routing compliance from **19.0% → 53.4%** (*p < 0.001*) at **0.98s** median latency across 1,500 trials. Shipped across GitHub, Hugging Face, and Nexus Mods.
+- **Dissertation (Skyrim LLM Bridge):** Architected an asynchronous Python/C++ IPC bridge and deterministic state-machine validator supporting **both online and offline LLMs**; fine-tuned **Gemma 2B** via 4-bit **QLoRA** to raise routing compliance from **19.0% → 53.4%** (*p < 0.001*) at **0.98s** median latency across 1,500 trials. Shipped across GitHub, Hugging Face, and Nexus Mods.
 - **AI Safety Founding Fellow (Spring 2026):** Completed AI Safety Cardiff University (AISCU) fellowship on catastrophic risks, reward hacking, model evaluations, and AI governance.
 - **Computer Vision:** Bounding-box localization via **RF-DETR** fine-tuning on **VOC2012** using **PyTorch**.
 - **Computational Linguistics:** NLP pipeline development using **pandas**, **scikit-learn**, speech-to-text, intent detection, and emotion analysis.

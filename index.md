@@ -49,7 +49,7 @@ Projects demonstrating forward-deployed AI engineering, legacy C++/C# system int
 [Python Orchestrator: bridge.py]
     ├── [data_director.py]         → IO, Session Memory, & Logging 
     ├── [llm_payload_builder.py]   → Profile & Quest State Prompt Injection
-    ├── [Local Inference Engine]   → Gemma-4-E2B (Fine-Tuned SLM Execution)
+    ├── [Inference Engine]         → Online Cloud APIs & Offline Local Gemma 2B
     └── [llm_reply_processor.py]   → JSON Sanitisation & Quest Policy Validation
         ↓
         ↓ (Writes response.json via JContainers / PapyrusUtil)
@@ -97,10 +97,10 @@ Inference Performance (AMD RX 6900 XT @ 4-bit QLoRA):
   </div>
   <div class="project-card__content">
     <h3>Bounded LLM Orchestrator & Legacy System Integration</h3>
-    <p class="project-card__meta"><strong>Python • Legacy C++ Integration • Local SLMs (QLoRA) • Deterministic State Machines • Benchmarking</strong></p>
-    <p>MSc Thesis deployed as the <strong>Skyrim LLM Bridge</strong>: an end-to-end local generative pipeline operating reliably inside an authoritative legacy C++ runtime.</p>
+    <p class="project-card__meta"><strong>Python • Legacy C++ Integration • Cloud & Local LLMs (QLoRA) • Deterministic State Machines • Benchmarking</strong></p>
+    <p>MSc Thesis deployed as the <strong>Skyrim LLM Bridge</strong>: an end-to-end generative pipeline supporting both <strong>online cloud and offline local models</strong> inside an authoritative legacy C++ runtime.</p>
     <ul>
-      <li><strong>Legacy System Integration:</strong> Built an <strong>asynchronous IPC bridge</strong> connecting Skyrim's C++/Papyrus engine to local SLMs without thread-blocking.</li>
+      <li><strong>Legacy System Integration:</strong> Built an <strong>asynchronous IPC bridge</strong> connecting Skyrim's C++/Papyrus engine to <strong>both online and offline LLM endpoints</strong> without thread-blocking.</li>
       <li><strong>Deterministic Guardrails:</strong> Gated LLM inference behind a <strong>JSON state-machine validator</strong> and epistemic clue gating to eliminate hallucinations.</li>
       <li><strong>Edge QLoRA Fine-Tuning:</strong> Adapted <strong>Gemma 2B</strong> via 4-bit QLoRA, raising state-machine routing compliance from <strong>19.0% → 53.4%</strong> (<em>p &lt; 0.001</em>).</li>
       <li><strong>Empirical Benchmarking:</strong> Evaluated across <strong>1,500 automated trials</strong>, achieving <strong>0.98s median latency</strong> and 36.2 TPS within a <strong>7.1 GB VRAM</strong> budget.</li>
